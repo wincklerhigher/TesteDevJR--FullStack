@@ -1,0 +1,12 @@
+.git
+.vscode
+
+# Arquivos de cache
+node_modules/
+npm-debug.log
+
+# Arquivos de log
+logs/
+
+# Pastas temporárias
+temp/

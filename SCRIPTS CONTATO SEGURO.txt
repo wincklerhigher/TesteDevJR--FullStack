@@ -1,0 +1,29 @@
+CREATE DATABASE contatos_empresas;
+
+CREATE TABLE Usuario (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) NOT NULL,
+    Telefone VARCHAR(20),
+    DataNascimento DATE,
+    CidadeNascimento VARCHAR(255),
+    -- Outros campos relevantes
+    UNIQUE (Email) -- Garante que o e-mail seja único
+);
+
+CREATE TABLE Empresa (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(255) NOT NULL,
+    CNPJ VARCHAR(18) NOT NULL,
+    Endereco VARCHAR(255) NOT NULL,
+    -- Outros campos relevantes
+    UNIQUE (CNPJ) -- Garante que o CNPJ seja único
+);
+
+CREATE TABLE Usuario_Empresa (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    IDUsuario INT,
+    IDEmpresa INT,
+    FOREIGN KEY (IDUsuario) REFERENCES Usuario(ID),
+    FOREIGN KEY (IDEmpresa) REFERENCES Empresa(ID)
+);
