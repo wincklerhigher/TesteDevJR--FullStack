@@ -68,13 +68,8 @@ Aqui na Contato Seguro, utilizamos __Docker__ nos nossos ambientes, então será
 # Resposta do participante
 _Responda aqui quais foram suas dificuldades e explique a sua solução_
 
+Durante a implantação da API Rest e, consequentemente, na construção da funcionalidade final do CRUD, enfrentei alguns desafios significativos. 
 
-Durante a implantação da API Rest e, consequentemente, na construção da funcionalidade final do CRUD, enfrentei alguns desafios significativos. Infelizmente, não consegui concluir essas tarefas com 100% de sucesso. No entanto, vejo estes desafios como oportunidades de aprendizado.
-
-O processo de teste foi desafiador, mas também enriquecedor. Estou confiante de que, com o suporte de uma equipe dedicada, treinamento e prática contínua, serei capaz de superar tarefas mais complexas.
+O processo de teste foi desafiador, mas também enriquecedor. Estou confiante de que, ao longo da minha jornada, com treinamento e prática contínua, serei capaz de superar tarefas mais complexas.
 
 Quanto à escolha do banco de dados, optei pelo MySQL. Essa escolha se baseou em minha experiência atual no curso do SENAC, onde tenho usado o MySQL. Além disso, enxergo várias vantagens nesta escolha, incluindo a natureza de código aberto, seu desempenho rápido e eficiente e a ampla aceitação global. A comunidade ativa em torno do MySQL, com recursos como tutoriais e suporte, também contribui para sua atratividade como solução de gerenciamento de banco de dados.
-
-Agradeço pela oportunidade de realizar o teste, que acredito ter contribuído para o meu crescimento como profissional. Estou ansioso para continuar a aprender e aprimorar minhas habilidades, quem sabe trabalhando em conjunto com a equipe da Contato Seguro.
-
-Muito obrigado!
