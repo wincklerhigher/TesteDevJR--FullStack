@@ -77,5 +77,5 @@ $uri_parts = explode('/', $request_uri);
 
     // Roteamento da API de Empresas
 }
-
+            
 ?>
