@@ -75,7 +75,7 @@ $uri_parts = explode('/', $request_uri);
         }
     }
 
-    // Roteamento da API de Empresas (ficou pendente)
+    // Roteamento da API de Empresas
 }
 
 ?>
